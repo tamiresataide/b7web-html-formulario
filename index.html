@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tags Fieldset e Legend
+   </title>
+   <link rel="stylesheet" href="./style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+   <form method="post" action="proximatela.html" enctype="multipart/form-data">
+      <fieldset>
+
+         <label >
+           <input type="hidden" value="client-id" >
+         </label><br/>
+
+         <legend>Dados Pessoais</legend>
+         <label >
+            Primeiro nome:<br/>
+            <input type="text" name="name" required minlength="2" class="inp-cap">
+         </label><br/>
+   
+         <label>
+            Sobrenome:<br/>
+            <input  type="text" name="lastname" required minlength="2" class="inp-cap">
+         </label><br/>
+
+         <label>
+            Email:<br/>
+            <input  type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Endereço de email">
+         </label><br/>
+
+         <label>
+            Data de Nascimento:<br/>
+            <input  type="date" name="birthdate" required>
+         </label><br/>
+
+         <label>
+            Foto de perfil:<br/>
+            <input  type="file" name="profilepic" accept="image/*">
+         </label><br/>
+   
+      </fieldset>
+      <fieldset>
+         <legend>Dados profissionais</legend>
+         <label>
+            Nome da empresa:<br/>
+            <input type="text" name="companyname">
+         </label><br/>
+   
+         <label>
+            Cargo na empresa:<br/>
+            <input  type="text" name="jobtitle">
+         </label><br/>
+      </fieldset>
+
+      <label id="accept">
+         <input type="checkbox" name="accept" required class="checkbox" >Eu li e aceito os <a href="./termosdeuso.html">Termos de uso</a>
+      </label><br/>
+      <input type="submit" value="Cadastrar" id="cadastrar">
+   </form>
+</body>
+</html>

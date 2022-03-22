@@ -1,0 +1,74 @@
+*{
+   box-sizing: content-box;
+   margin: auto;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+fieldset{
+   background-color: #EEE;
+   margin: 20px auto;
+   border: 1px solid rgb(129, 129, 129);
+   border-radius: 5px;
+   width: 50%;
+   align-self: center;
+   
+}
+
+legend{
+   background-color: rgb(129, 129, 129);
+   color: #FFF;
+   border-radius: 10px;
+   padding: 5px;
+   font-size: 15px;
+   width: 70%;
+   text-align: center;
+   text-transform: uppercase;
+}
+label{
+   display: block;
+}
+
+input{
+   margin: 10px;
+   width: 80%;
+   border: 1px solid rgb(128, 128, 128);
+   outline: none;
+}
+
+#accept{
+   width: 50%;
+   margin: auto; 
+   
+}
+
+.checkbox{
+   width: auto;
+}
+
+input:hover{
+   border: 1px solid rgb(75, 75, 75);
+   margin: 10px;
+
+}
+
+#cadastrar{
+   display: block;
+   margin: auto;
+   margin-bottom: 20px;
+   width: 50%;
+   padding: 10px;
+   border: 1px solid rgb(75, 75, 75);
+   border-radius: 5px;
+}
+
+#cadastrar:hover{
+   background-color: rgb(192, 192, 192);
+}
+
+.inp-cap{
+   text-transform: capitalize;
+}
+
+a{
+   color: black;
+}
