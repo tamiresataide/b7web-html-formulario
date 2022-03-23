@@ -1,0 +1,9 @@
+*{
+   box-sizing: content-box;
+   text-align: center;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+   margin-top: 20%;
+}
