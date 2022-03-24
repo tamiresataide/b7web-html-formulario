@@ -72,3 +72,11 @@ input:hover{
 a{
    color: black;
 }
+
+footer, footer a{
+   text-align: center;
+   color: rgb(121, 121, 121);
+}
+footer{
+   padding: 20px;
+}
